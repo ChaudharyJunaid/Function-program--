@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int fun(){
+	int n;
+	cin>>n;
+	if(n%2==0)
+	return 1;
+	else
+	return 2;
+}
+int main(){
+//Q#1
+int x;
+x=fun();
+if(x==1)
+cout<<"Even";
+else
+cout<<"Odd";
+
+
+return 0;
+}
